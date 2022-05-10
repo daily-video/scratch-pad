@@ -233,14 +233,14 @@ body {
   display: block;
   text-align: center;
 }
-[data-gesture="raise-hand"] {
+[data-gesture="hand-raise"] {
   font-weight: bold;
 }
-*[data-gesture="raise-hand"]::before {
+*[data-gesture="hand-raise"]::before {
   content: "✋";
 }
 
-*[data-gesture="lower-hand"]::before {
+*[data-gesture="hand-lower"]::before {
 
 }
 
@@ -256,11 +256,11 @@ button[data-gesture] {
   font-family: var(--font-family);
 }
 
-button[data-gesture="raise-hand"] {
+button[data-gesture="hand-raise"] {
 
 }
 
-button[data-gesture="lower-hand"] {
+button[data-gesture="hand-lower"] {
 }
 
 /*
