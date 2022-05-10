@@ -220,6 +220,10 @@ body {
   padding: 0 0 36px;
 }
 
+.participant {
+  padding: 4px 0;
+}
+
 *[data-gesture] {
   display: flex;
   gap: 4px;
