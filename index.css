@@ -244,6 +244,14 @@ body {
   flex: 1 0 auto;
 }
 
+button[data-gesture] {
+  font-weight: normal;
+  padding: 8px 16px 8px 12px;
+  border-radius: 8px;
+  border-width: 0px;
+  font-family: var(--font-family);
+}
+
 button[data-gesture="raise-hand"] {
 
 }
