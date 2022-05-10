@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Daily Prebuilt demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body onload="createCallframe()">
+    <header class="header">
+      <div class="left-header">
+        <img
+          src="assets/daily_logo.svg"
+          class="daily-logo"
+          alt="Daily logo reads Daily"
+        />
+        <strong>
+          <p class="header-title">Daily Prebuilt demo</p>
+        </strong>
+      </div>
+      <div class="right-header">
+        <a href="https://docs.daily.co/reference" target="_blank" class="link">
+          <button class="button docs-button white-button">
+            API docs
+            <img
+              class="arrow-icon"
+              src="/assets/new_tab_icon.png"
+              alt="Arrow icon points up and to the right"
+            />
+          </button>
+        </a>
+        <span class="divider"></span>
+        <a href="https://github.com/daily-demos/prebuilt-ui" target="_blank">
+          <img
+            class="octocat"
+            src="assets/github_logo.png"
+            alt="GitHub logo Octocat"
+          />
+        </a>
+      </div>
+    </header>
+    <div class="container">
+
+      <div id="call-controls-wrapper" class="call-controls-wrapper hide">
+        <div class="call-controls">
+          <div class="controls-header">
+            <h3>Call overview</h3>
+            <p id="demo-countdown" class="demo-countdown"></p>
+          </div>
+
+          <div class="controls-participants">
+            <h3>Call Participants</h3>
+            <ol>
+              <li
+                data-participant-id=""
+                data-gesture="">
+                Name (That’s You!)
+              </li>
+            </ol>
+            <button
+              class="button gesture-button"
+              data-gesture="raise-hand"
+            >
+              <b>Raise Hand</b>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
