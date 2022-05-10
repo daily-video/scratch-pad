@@ -209,6 +209,39 @@ body {
   font-family: var(--font-family);
 }
 
+.participants {
+  list-style-type: none;
+}
+
+*[data-gesture] {
+  display: flex;
+  flex-flow: row nowrap;
+}
+*[data-gesture]::before {
+  display: block;
+  width: 24px;
+  text-align: center;
+}
+*[data-gesture="raise-hand"]::before {
+  content: "✋";
+}
+
+*[data-gesture="lower-hand"]::before {
+
+}
+
+*[data-gesture] > * {
+  flex: 1 0 auto;
+}
+
+button[data-gesture="raise-hand"] {
+
+}
+
+button[data-gesture="lower-hand"] {
+}
+
+/*
 .controls-stats {
   display: flex;
   flex-direction: column;
@@ -237,6 +270,8 @@ body {
   display: flex;
   justify-content: space-between;
 }
+*/
+
 
 .custom-buttons {
   display: flex;
