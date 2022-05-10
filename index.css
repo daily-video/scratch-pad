@@ -222,11 +222,11 @@ body {
 
 *[data-gesture] {
   display: flex;
+  gap: 4px;
   flex-flow: row nowrap;
 }
 *[data-gesture]::before {
   display: block;
-  width: 24px;
   text-align: center;
 }
 [data-gesture="raise-hand"] {
