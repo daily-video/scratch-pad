@@ -229,6 +229,9 @@ body {
   width: 24px;
   text-align: center;
 }
+[data-gesture="raise-hand"] {
+  font-weight: bold;
+}
 *[data-gesture="raise-hand"]::before {
   content: "✋";
 }
